@@ -28,6 +28,8 @@ const nuevoModulo = 21 % 5 === 4.2;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código;
+Var miCadena="Cómo están todos";
+Var resultado= devolverString(miCadena);
   
 }
 
@@ -35,6 +37,9 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+if (typeof x==='number'&&typeof y==='number'){returnx+y;} ese{
+return "por favor, asegúrate de que x e y sean números.";
+}
   
 }
 
